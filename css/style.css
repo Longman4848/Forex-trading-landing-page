@@ -383,7 +383,6 @@ button .text {
 
 .train2 p {
     margin-bottom: 10px;
-    padding: ;
 }
 
 .card h1 {
@@ -455,14 +454,7 @@ h2 {
 
 .designer a {
     text-decoration: none;
-    /* color: blanchedalmond; */
     color: #25d366;
-    /* color: #FFF; */
-}
-
-.mine {
-    /* background-color: #25d366;
-    color: #FFF; */
 }
 
 .footer-grid {
@@ -482,9 +474,12 @@ h2 {
     margin-bottom: 15px;
 }
 
+.foot-grid-2 .fa-facebook-square {
+    color: #3b5998;
+}
+
 .foot-grid-2 .fa-whatsapp {
     color: green;
-    /* border-radius: 50%; */
 }
 
 .foot-grid-2 .fa-phone {
@@ -518,7 +513,6 @@ h2 {
         cursor: pointer;
         right: 15px;
     }
-    header {}
     .nav-link {
         display: none;
         flex-direction: column;
@@ -644,8 +638,8 @@ h2 {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .foot-grid-2 fa {
-        font-size: 20px;
+    .foot-grid-2 .fa {
+        font-size: 30px;
     }
 }
 
@@ -723,7 +717,7 @@ h2 {
     .faq h4 {
         width: 90%;
     }
-    .foot-grid-2 fa {
-        font-size: 20px;
+    .foot-grid-2 .fa {
+        font-size: 30px;
     }
 }

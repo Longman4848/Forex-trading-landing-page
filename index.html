@@ -7,8 +7,15 @@
     <!-- Facebook meta  -->
     <meta property="og:title" content="G-Sterling Forex Trading">
     <meta property="og:description" content="We train people to be a proffessional forex trader">
-    <meta property="og:image" content="image/logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="https://unsplash.com/photos/DfjJMVhwH_8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Twitter metadata -->
+    <meta property="twitter:title" content="G-Sterling Forex Trading">
+    <meta property="twitter:description" content="We train people to be a proffessional forex trader">
+    <meta property="twitter:image" content="https://unsplash.com/photos/DfjJMVhwH_8">
+    <meta property="twitter:url" content="">
+    <meta name="twitter:card" content="G Sterling Forex trading">
     <!-- JQuery -->
     <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
     <script src="https://use.fontawesome.com/e165057677.js"></script>
@@ -20,7 +27,7 @@
     <header>
         <div class="container">
             <div id="header-image">
-                <a class="navbar-brand" href="# "> <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
+                <a class="navbar-brand" href="#g"> <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i>
                     <span class="logo-name ">G-Sterling</span>
                 </a>
             </div>
@@ -29,7 +36,7 @@
 
                 <ul class="nav-link">
                     <li>
-                        <a class="nav-links" href="# ">About Us</a></li>
+                        <a class="nav-links" href="#about-us">About Us</a></li>
                     <li>
                         <a class="nav-links" href="#Training-Course">Training Course</a>
                     </li>
@@ -49,20 +56,20 @@
                 <p class="note-p">In Foreign Exchange(Forex) Trading</p>
             </div>
         </div>
-        <div class="grid2">
+        <div class="grid2" id="form">
             <h3 class="get"><span>Get Started</span></h3>
-            <form action="">
+            <form action="POST" data-netlify="true">
                 <div class="form-input">
                     <h1>Register Now</h1>
                     <div class="name-input">
                         <label>Name:</label><br>
-                        <input type="text" id="name-label" name="firstname" placeholder="Name" autocomplete="name" required>
+                        <input type="text" id="name-label" name="name" placeholder="Name" autocomplete="name" required>
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
                     </div>
 
                     <div class="phone-input">
                         <label>Mobile number:</label><br>
-                        <input type="tel" id="phone-label" name="phone" placeholder="Mobile number" autocomplete="phone" required>
+                        <input type="tel" id="phone-label" name="phone-number" placeholder="Mobile number" autocomplete="phone" required>
                         <i class="fa fa-check-circle" aria-hidden="true"></i>
                         <small>Preferably, WhatsApp or Telegram number</small>
 
@@ -75,7 +82,7 @@
                         </div>
 
                         <div class="text-input">
-                            <textarea id="message-input" placeholder="Leave a message"></textarea>
+                            <textarea id="message-input" name="message" placeholder="Leave a message"></textarea>
                         </div>
 
                         <div class="submit-input">
@@ -171,7 +178,7 @@
         </div>
         <button class="btn btn-success"><span class="text">How do I get started ? <i class="fa fa-arrow-down" aria-hidden="true"></i></span></button>
         <div class="highlight">
-            <p class="hidden">At G-Sterling, we will tain you from the basics of the market to advance level, using different tools and software to trade <button class="join-us" id=''>Click to get started</button> </p>
+            <p class="hidden">At G-Sterling, we will tain you from the basics of the market to advance level, using different tools and software to trade <a href="#form"><button class="join-us" id=''>Click to get started</button></a> </p>
         </div>
     </section>
     <setion class="testimonials" id="Testimonials">
@@ -193,6 +200,14 @@
                 <h4>Past or Present job</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur autem, iure nihil ut a ullam earum blanditiis consectetur vero exercitationem? Et nesciunt corrupti distinctio veritatis.</p>
             </div>
+            <div class="test-3">
+                <img src="image/gid-forex.jpg" alt="forex trading" srcset="">
+                <h3>Mr Gideon
+                    <hr>
+                </h3>
+                <h4>Full-time Proffesional Trader</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur autem, iure nihil ut a ullam earum blanditiis consectetur vero exercitationem? Et nesciunt corrupti distinctio veritatis.</p>
+            </div>
 
         </div>
     </setion>
@@ -210,19 +225,19 @@
                 <h3>You can contact us on our social media handle</h3>
                 <ul>
                     <li>
-                        <a href="http://"> <i class="fa fa-whatsapp fa-3x"></i></li>
-                    <li> <a href="http://"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
+                        <a href="https://wa.me/2348034371346"> <i class="fa fa-whatsapp fa-3x"></i></li>
+                    <li> <a href="http://facebook.com/IndicesATM/?_rdc=1"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
                     <li>
-                        <a href="tel:+2348179023956"> <i class="fa fa-phone fa-3x" aria-hidden="true"></i></a>
+                        <a href="tel:+2348034371346"> <i class="fa fa-phone fa-3x" aria-hidden="true"></i></a>
                     </li>
                     <li>
-                        <a href="http://"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></a>
+                        <a href="https://t.me/GreensoftFinance"><i class="fa fa-telegram fa-3x" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="designer"> With 💖 by: Bolajoko Dhayo
-            <a href="http://"> <i class="fa fa-whatsapp mine"></i> </a> ||
+        <div class="designer"> Made with 💖 by: Bolajoko Dhayo
+            <a href="https://wa.me/2348179023956"> <i class="fa fa-whatsapp mine"></i> </a> ||
             <a href="tel:+2348179023956"> <i class="fa fa-phone" aria-hidden="true"></i></a>
         </div>
     </footer>
