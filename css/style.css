@@ -43,6 +43,14 @@ header .navbar-brand {
     font-weight: bold;
 }
 
+.header-image {
+    align-items: center;
+}
+
+.navbar-brand .fa-bar-chart {
+    margin-top: 10px;
+}
+
 .logo-name {
     margin-left: 5px;
 }
@@ -88,7 +96,9 @@ header .navbar-brand {
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5px;
+    padding: 5px 10px;
+    margin-left: 8px;
+    margin-right: 5px;
 }
 
 .about-grid-1 h3,
@@ -247,13 +257,17 @@ form {
     font-size: 2em;
 }
 
+.about-grid {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .about-grid-1 {
     padding-right: 10px;
 }
 
 .train-objective {
     padding: 10px;
-    /* background-image: linear-gradient(to right, #048243c9, #32bf84c7), url("../image/forex3.jpg"); */
     background-color: white;
     background-size: cover;
     background-position: center;
@@ -321,13 +335,6 @@ form {
     margin-top: 15px;
 }
 
-
-/* .faq h4 {
-        width: 100%;
-     background-color: #cafffb;
-    padding: 5px 15px; 
-} */
-
 .faq .btn {
     padding: 10px 30px;
     background-color: #048243;
@@ -349,6 +356,11 @@ form {
 
 button .text {
     font-size: 20px;
+}
+
+.faq {
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
 .faq h4 i {
@@ -376,7 +388,7 @@ button .text {
     max-width: 300px;
     min-height: 200px;
     margin: auto;
-    padding: 10px 5px;
+    padding: 10px 15px;
     background-color: #cafffb;
     border-radius: 5px;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
@@ -401,6 +413,11 @@ h2 {
     padding: 5px 5px;
 }
 
+.font {
+    margin: 0 auto;
+    width: 35%;
+}
+
 .font .fa {
     /* background-color: #c8d605ee; */
     color: #048243;
@@ -417,14 +434,13 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     padding: 5px;
-    /* background-color: #abedd8; */
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .test-grid hr {
     width: 35%;
-    /* background-color: #048243; */
     background-color: #cadefc;
-    /* color: #32bf84; */
 }
 
 .test-1,
@@ -641,6 +657,10 @@ h2 {
     }
     .foot-grid-2 .fa {
         font-size: 30px;
+    }
+    .foot-social ul {
+        margin: 0 auto;
+        width: 50%;
     }
 }
 
